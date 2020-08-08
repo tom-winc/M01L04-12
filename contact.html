@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="black-border">Neem contact op</h1>
+    </header>
+    <main>
+        <section class="formulier">
+            <form name="contact-tom-winc-2" method="POST" data-netlify="true">
+                <p><label>naam: <input type="text" name="name" /></label></p>
+                <p><label>e-mail: <input type="email" name="email" /></label></p>
+                <p><label>telefoonnummer: <input type="tel" name="email" /></label></p>
+                <p><label>leeftijd: <input type="number" name="age" /></label></p>
+                <p><label>geboortedatum: <input type="date" name="dob" /></label></p>
+                <p>gender: <label for="male"><input type="radio" id="male" name="gender" value="male">man</label> |
+                    <label for="female"><input type="radio" id="female" name="gender" value="female">vrouw</label> |
+                    <label for="other"><input type="radio" id="other" name="gender" value="other">anders</label></p>
+                <p>favoriete cuisine: <label for="cuisine1"><input type="checkbox" id="cuisine1" name="cuisine1"
+                            value="frans">frans</label> |
+                    <label for="cuisine2"><input type="checkbox" id="cuisine2" name="cuisine2"
+                            value="italiaans">italiaans</label> |
+                    <label for="cuisine3"><input type="checkbox" id="cuisine3" name="cuisine3"
+                            value="spaans">spaans</label> |
+                    <label for="cuisine4"><input type="checkbox" id="cuisine4" name="cuisine4"
+                            value="arabisch">arabisch</label></p>
+                <p><label for="favcolor">favoriete kleur van short: <input type="color" id="favcolor" name="favcolor"
+                            value="#ff0000"></label></p>
+                <p><label>biografie: <textarea name="message" rows="8" cols="50"></textarea></label></p>
+                <p><label>upload je laatste recept: <input type="file" id="recept-file" name="recept-file" /></label>
+                </p>
+                <p><label>url naar je recepten website: <input type="url" name="url" /></label></p>
+                <p><label><button type="reset" value="Reset">Wis alles</button></label> |
+                    <label><button type="submit" value="Submit">Verstuur</button></label></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <p class="black-border"><a href="index.html">Recepten-pagina</a> | <a href="about.html">Over Tom</a> | <a
+                    href="blog.html">Blog</a></p>
+        </nav>
+    </footer>
+</body>
+
+</html>
